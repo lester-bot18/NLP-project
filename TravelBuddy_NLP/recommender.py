@@ -1,31 +1,3 @@
-"""
-Travel Destination Recommender - NLP Mini Project
-==================================================
-
-EXPERIMENT 1 - PROBLEM STATEMENT
---------------------------------
-Real-world NLP application: a Personal-Assistant style *recommendation system*
-combined with *text categorization*, *spelling correction* and *question
-answering style* query understanding.
-
-Problem: Travellers describe what they want in free text, e.g.
-    "peaceful hill station in winter under Rs 8000 with trekking"
-The system must understand that text and recommend the best destinations
-from a dataset (destinations.csv).
-
-NLP pipeline implemented (experiment number -> function):
-    Exp 2  Tokenization, Filtration & Script Validation -> validate_script, tokenize, filter_tokens
-    Exp 3  Stop-word removal, Stemming, Lemmatization   -> remove_stopwords, stem_tokens, lemmatize_tokens
-    Exp 4  Morphological analysis & word generation     -> morphological_analysis, generate_word_forms
-    Exp 5  N-gram model                                 -> NGramModel
-    Exp 6  POS taggers (study + tagging)                -> build_taggers, compare_taggers
-    Exp 7  Chunking                                     -> chunk_text, extract_noun_phrases
-    Exp 8  Named Entity Recognition                     -> recognize_entities
-    Exp 9  Text similarity                              -> similarity_report (+ TF-IDF cosine)
-
-Install:  pip install nltk pandas scikit-learn
-"""
-
 import math
 import re
 import unicodedata
@@ -43,9 +15,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-# --------------------------------------------------
-# 0. NLTK RESOURCES
-# --------------------------------------------------
+# NLTK RESOURCES
 
 NLTK_RESOURCES = {
     "punkt": "tokenizers/punkt",
@@ -81,9 +51,7 @@ lancaster = LancasterStemmer()
 lemmatizer = WordNetLemmatizer()
 
 
-# ==================================================
-# EXPERIMENT 2: TOKENIZATION, FILTRATION, SCRIPT VALIDATION
-# ==================================================
+# TOKENIZATION, FILTRATION, SCRIPT VALIDATION
 
 def validate_script(text):
     """
@@ -122,9 +90,7 @@ def strip_noise(text):
     return text
 
 
-# ==================================================
-# EXPERIMENT 3: STOP WORDS, STEMMING, LEMMATIZATION
-# ==================================================
+# STOP WORDS, STEMMING, LEMMATIZATION
 
 def remove_stopwords(tokens):
     return [t for t in tokens if t not in STOP_WORDS]
@@ -199,9 +165,7 @@ def nlp_analyzer(doc):
     return lemmas + [f"{a} {b}" for a, b in zip(lemmas, lemmas[1:])]
 
 
-# ==================================================
-# EXPERIMENT 4: MORPHOLOGICAL ANALYSIS & WORD GENERATION
-# ==================================================
+# MORPHOLOGICAL ANALYSIS & WORD GENERATION
 
 PREFIXES = sorted(
     ["un", "re", "dis", "in", "im", "non", "over", "under", "pre", "sub", "inter", "mis"],
@@ -278,9 +242,7 @@ def generate_word_forms(word):
     }
 
 
-# ==================================================
-# EXPERIMENT 5: N-GRAM MODEL
-# ==================================================
+# N-GRAM MODEL
 
 class NGramModel:
     """
@@ -338,9 +300,7 @@ def top_ngrams(token_lists, n=2, k=5):
     return [(" ".join(g), c) for g, c in counter.most_common(k)]
 
 
-# ==================================================
-# EXPERIMENT 6: POS TAGGERS
-# ==================================================
+# POS TAGGERS
 
 def build_taggers():
     """
@@ -378,9 +338,7 @@ def compare_taggers(tokens):
     return {name: tag(tokens) for name, tag in TAGGERS.items()}
 
 
-# ==================================================
-# EXPERIMENT 7: CHUNKING
-# ==================================================
+# CHUNKING
 
 CHUNK_GRAMMAR = r"""
 NP: {<DT>?<JJ.*>*<NN.*>+}
@@ -419,10 +377,7 @@ def key_phrases(text):
             heads.append(head)
     return heads
 
-
-# ==================================================
-# EXPERIMENT 9 (helpers): TEXT SIMILARITY MEASURES
-# ==================================================
+# TEXT SIMILARITY MEASURES
 
 def jaccard(a, b):
     a, b = set(a), set(b)
@@ -453,9 +408,7 @@ def similarity_report(text_a, text_b):
     }
 
 
-# --------------------------------------------------
 # 1. LOAD AND PREPARE DATASET
-# --------------------------------------------------
 
 df = pd.read_csv("destinations.csv")
 
@@ -497,9 +450,7 @@ trigram_model.train(df["lemmas"])
 TAGGERS = build_taggers()
 
 
-# --------------------------------------------------
 # SPELLING CORRECTION (edit distance)
-# --------------------------------------------------
 
 CATEGORY_KEYWORDS = {
     "Mountains": ["mountain", "mountains", "mountainous", "hill", "hills",
@@ -560,9 +511,7 @@ def correct_spelling(query):
     return re.sub(r"[A-Za-z]+", fix, query), corrections
 
 
-# ==================================================
-# EXPERIMENT 8: NAMED ENTITY RECOGNITION
-# ==================================================
+# NAMED ENTITY RECOGNITION
 
 BUDGET_PATTERN = re.compile(
     r"(?:₹|rs\.?\s*)\s*(\d[\d,]*)|(\d[\d,]*)\s*(?:rupees|inr)\b",
@@ -624,9 +573,7 @@ def recognize_entities(query):
     return entities
 
 
-# --------------------------------------------------
-# 2. EXTRACT USER PREFERENCES
-# --------------------------------------------------
+# EXTRACT USER PREFERENCES
 
 def extract_preferences(query):
     """Identify categories, season, budget and other preferences."""
@@ -666,9 +613,7 @@ def extract_preferences(query):
     return preferences
 
 
-# --------------------------------------------------
-# 3. RECOMMENDATION ENGINE
-# --------------------------------------------------
+# RECOMMENDATION ENGINE
 
 def recommend_destinations(query, top_n=3):
     """
@@ -785,9 +730,7 @@ def recommend_destinations(query, top_n=3):
     return results[:max(0, top_n)]
 
 
-# --------------------------------------------------
-# 4. PIPELINE DEMO (prints the output of every experiment)
-# --------------------------------------------------
+# PIPELINE DEMO 
 
 def heading(title):
     print("\n" + "=" * 60)
@@ -796,7 +739,7 @@ def heading(title):
 
 
 def show_pipeline(query, top_result=None):
-    heading("EXPERIMENT 2: Tokenization, Filtration & Script Validation")
+    heading("Tokenization, Filtration & Script Validation")
     valid, bad = validate_script(query)
     print("Script valid (Latin/English):", valid, "" if valid else f"-> bad chars: {bad}")
     corrected, fixes = correct_spelling(query)
@@ -806,7 +749,7 @@ def show_pipeline(query, top_result=None):
     print("Tokens                      :", tokens)
     print("After filtration            :", filter_tokens(tokens))
 
-    heading("EXPERIMENT 3: Stop Words, Stemming, Lemmatization")
+    heading("Stop Words, Stemming, Lemmatization")
     steps = preprocess(corrected)
     print("Stop words removed :", steps["no_stopwords"])
     print("Porter stems       :", steps["stems"])
@@ -814,7 +757,7 @@ def show_pipeline(query, top_result=None):
     print("Lancaster stems    :", stem_tokens(steps["no_stopwords"], lancaster))
     print("Lemmas (POS-aware) :", steps["lemmas"])
 
-    heading("EXPERIMENT 4: Morphological Analysis & Word Generation")
+    heading("Morphological Analysis & Word Generation")
     for word in steps["no_stopwords"][:5]:
         info = morphological_analysis(word)
         print(f"{info['word']:<12} prefix={info['prefix']:<6} root={info['root']:<10} "
@@ -826,7 +769,7 @@ def show_pipeline(query, top_result=None):
         print(f"Word generation for '{word}': inflected={forms['inflected']} "
               f"derived={forms['derived']}")
 
-    heading("EXPERIMENT 5: N-Gram Model")
+    heading("N-Gram Model")
     lemmas = steps["lemmas"]
     print("Query bigrams  :", [" ".join(g) for g in ngrams(lemmas, 2)])
     print("Query trigrams :", [" ".join(g) for g in ngrams(lemmas, 3)])
@@ -838,22 +781,22 @@ def show_pipeline(query, top_result=None):
               trigram_model.predict_next(lemmas[-2:]))
         print("Bigram perplexity of query:", round(bigram_model.perplexity(lemmas), 2))
 
-    heading("EXPERIMENT 6: POS Tagging (3 taggers compared)")
+    heading("POS Tagging (3 taggers compared)")
     plain_tokens = filter_tokens(tokenize(strip_noise(corrected)))
     for name, tagged in compare_taggers(plain_tokens).items():
         print(f"{name}:\n   {tagged}")
 
-    heading("EXPERIMENT 7: Chunking")
+    heading("Chunking")
     tree = chunk_text(corrected)
     print(tree)
     print("\nNoun phrases:", extract_noun_phrases(corrected))
     print("Key head nouns:", key_phrases(corrected))
 
-    heading("EXPERIMENT 8: Named Entity Recognition")
+    heading("Named Entity Recognition")
     for entity in recognize_entities(corrected):
         print(f"{entity['label']:<12} {entity['text']:<20} (via {entity['source']})")
 
-    heading("EXPERIMENT 9: Text Similarity")
+    heading("Text Similarity")
     if top_result:
         doc = f"{top_result['name']} {top_result['state']} {top_result['description']} {top_result['type']}"
         print(f"Query vs. top result ({top_result['name']}):")
@@ -861,9 +804,7 @@ def show_pipeline(query, top_result=None):
             print(f"   {measure:<26}{value:.3f}")
 
 
-# --------------------------------------------------
-# 5. COMMAND-LINE TEST
-# --------------------------------------------------
+# COMMAND-LINE TEST
 
 if __name__ == "__main__":
 
