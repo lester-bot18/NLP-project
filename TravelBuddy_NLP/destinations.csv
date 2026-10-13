@@ -1,52 +1,110 @@
 name,state,description,type,best_season,budget
-Manali,Himachal Pradesh,"Mountain destination with snowy peaks, trekking, skiing and cold weather",Mountains,Winter,10000
-Shimla,Himachal Pradesh,"Hill station with cool climate, mountain views, colonial architecture and peaceful surroundings",Mountains,Winter,8000
-Goa,Goa,"Coastal destination with sandy beaches, nightlife, water sports and seafood",Beach,Winter,9000
-Jaipur,Rajasthan,"Historic city with royal palaces, forts, cultural heritage and traditional markets",Historical,Winter,7000
-Rishikesh,Uttarakhand,"Adventure destination famous for river rafting, camping, yoga and Himalayan scenery",Adventure,Spring,6000
-Munnar,Kerala,"Scenic hill station with tea plantations, green valleys, misty mountains and cool weather",Nature,Winter,8000
-Darjeeling,West Bengal,"Mountain destination with tea gardens, Himalayan views, cool weather and scenic toy train rides",Mountains,Summer,9000
-Ooty,Tamil Nadu,"Hill station with botanical gardens, tea plantations, lakes and pleasant weather",Nature,Summer,7000
-Andaman Islands,Andaman and Nicobar Islands,"Tropical islands with clear water, coral reefs, scuba diving and sandy beaches",Beach,Winter,15000
-Leh,Ladakh,"High altitude mountain destination with dramatic landscapes, monasteries, trekking and adventure",Adventure,Summer,15000
-Udaipur,Rajasthan,"Historic city with beautiful lakes, royal palaces, heritage hotels and traditional architecture",Historical,Winter,8000
-Coorg,Karnataka,"Green hill destination with coffee plantations, forests, waterfalls and peaceful surroundings",Nature,Monsoon,7000
-McLeod Ganj,Himachal Pradesh,"Mountain destination with trekking trails, monasteries, misty hills and peaceful surroundings",Mountains,Summer,7000
-Pondicherry,Puducherry,"Coastal town with beaches, French colonial architecture, cafes and relaxing seaside promenades",Beach,Winter,6000
-Varanasi,Uttar Pradesh,"Historic spiritual city with ancient temples, riverfront ghats and rich cultural heritage",Historical,Winter,5000
-Srinagar,Jammu and Kashmir,"Mountain destination with Dal Lake, houseboats, snow-capped peaks and beautiful gardens",Mountains,Summer,12000
-Gulmarg,Jammu and Kashmir,"Mountain destination famous for skiing, snowfall, snowy slopes and winter adventure sports",Adventure,Winter,14000
-Nainital,Uttarakhand,"Hill station surrounded by mountains with a scenic lake, boating and cool weather",Mountains,Summer,7000
-Mussoorie,Uttarakhand,"Hill station with mountain views, waterfalls, misty valleys and pleasant weather",Mountains,Summer,8000
-Auli,Uttarakhand,"Mountain destination known for skiing, snowy slopes, Himalayan views and winter adventure",Adventure,Winter,12000
-Kedarnath,Uttarakhand,"Mountain pilgrimage destination surrounded by Himalayan peaks and trekking routes",Mountains,Summer,10000
-Spiti Valley,Himachal Pradesh,"Remote mountain valley with dramatic landscapes, monasteries, cold desert scenery and trekking",Adventure,Summer,14000
-Kasol,Himachal Pradesh,"Mountain village with riverside camping, trekking trails, forests and peaceful surroundings",Adventure,Summer,7000
-Kasauli,Himachal Pradesh,"Quiet hill station with pine forests, colonial buildings, scenic walking trails and cool weather",Mountains,Summer,7000
-Dalhousie,Himachal Pradesh,"Mountain town with pine forests, colonial architecture, green valleys and peaceful scenery",Mountains,Summer,9000
-Kodaikanal,Tamil Nadu,"Hill station with lakes, forests, waterfalls, misty mountains and cool climate",Nature,Summer,7000
-Wayanad,Kerala,"Nature destination with forests, wildlife, waterfalls, green hills and scenic trekking trails",Nature,Monsoon,8000
-Alleppey,Kerala,"Backwater destination with houseboats, lagoons, coconut trees and relaxing water journeys",Nature,Winter,7000
-Kochi,Kerala,"Coastal city with historic streets, Chinese fishing nets, heritage buildings and seaside attractions",Historical,Winter,7000
-Mahabalipuram,Tamil Nadu,"Historic coastal town with ancient stone temples, rock carvings and UNESCO heritage monuments",Historical,Winter,6000
-Hampi,Karnataka,"Historic destination with ancient ruins, stone temples, archaeological sites and remarkable landscapes",Historical,Winter,7000
-Mysuru,Karnataka,"Cultural city with royal palaces, historic monuments, gardens and traditional markets",Historical,Winter,6000
-Pune,Maharashtra,"City destination with nearby forts, cultural attractions, pleasant hill getaways and trekking routes",Adventure,Winter,5000
-Lonavala,Maharashtra,"Hill station with green valleys, waterfalls, scenic viewpoints and monsoon trekking trails",Nature,Monsoon,5000
-Mahabaleshwar,Maharashtra,"Hill station with strawberry farms, forests, mountain viewpoints and cool weather",Nature,Winter,6000
-Mumbai,Maharashtra,"Coastal metropolitan city with beaches, historic architecture, entertainment and vibrant street food",Beach,Winter,6000
-Ajanta Caves,Maharashtra,"Historic destination featuring ancient Buddhist cave monuments, paintings and rock-cut architecture",Historical,Winter,6000
-Mount Abu,Rajasthan,"Hill station with forested hills, peaceful lakes, cool weather and historic Jain temples",Nature,Winter,7000
-Jaisalmer,Rajasthan,"Desert city with golden sandstone forts, historic havelis, camel safaris and cultural experiences",Historical,Winter,8000
-Jodhpur,Rajasthan,"Historic city with Mehrangarh Fort, royal palaces, blue-painted houses and cultural heritage",Historical,Winter,7000
-Khajuraho,Madhya Pradesh,"Historic destination known for intricate temple architecture, sculptures and cultural heritage",Historical,Winter,7000
-Pachmarhi,Madhya Pradesh,"Nature destination with forested hills, waterfalls, caves and scenic walking trails",Nature,Monsoon,6000
-Kaziranga National Park,Assam,"Wildlife destination famous for one-horned rhinoceroses, grasslands, forests and nature safaris",Nature,Winter,9000
-Shillong,Meghalaya,"Hill destination with green mountains, waterfalls, caves, pleasant weather and scenic viewpoints",Nature,Winter,8000
-Cherrapunji,Meghalaya,"Nature destination with dramatic waterfalls, living root bridges, caves and misty green hills",Nature,Monsoon,8000
-Gangtok,Sikkim,"Mountain city with Himalayan views, monasteries, scenic lakes and adventure excursions",Mountains,Summer,10000
-Pelling,Sikkim,"Mountain destination with Kanchenjunga views, monasteries, forests and peaceful surroundings",Mountains,Summer,9000
-Tawang,Arunachal Pradesh,"Remote mountain destination with monasteries, high altitude scenery, cold weather and peaceful valleys",Mountains,Summer,12000
-Ziro Valley,Arunachal Pradesh,"Scenic valley with green hills, rice fields, forests, traditional villages and peaceful surroundings",Nature,Monsoon,9000
-Puri,Odisha,"Coastal destination with sandy beaches, historic temples, seaside attractions and cultural experiences",Beach,Winter,6000
-Konark,Odisha,"Historic coastal destination famous for the Sun Temple, stone architecture and cultural heritage",Historical,Winter,6000
+Manali,Himachal Pradesh,"Mountain destination with snowy peaks, trekking, skiing and cold weather. Popular for snow activities, river valleys, pine forests and adventure sports like paragliding and zorbing.",Mountains,Winter,10000
+Shimla,Himachal Pradesh,"Hill station with cool climate, mountain views, colonial architecture and peaceful surroundings. Known for the Mall Road, the Ridge, toy train rides and pleasant evening walks, ideal for families and couples.",Mountains,Winter,8000
+Goa,Goa,"Coastal destination with sandy beaches, nightlife, water sports and seafood. Offers beach parties, Portuguese heritage churches, flea markets and relaxed sunset views along the sea.",Beach,Winter,9000
+Jaipur,Rajasthan,"Historic city with royal palaces, forts, cultural heritage and traditional markets. Famous for Amber Fort, City Palace, handicraft bazaars and Rajasthani food, a great pick for history lovers.",Historical,Winter,7000
+Rishikesh,Uttarakhand,"Adventure destination famous for river rafting, camping, yoga and Himalayan scenery. Also known for bungee jumping, riverside cafes, meditation retreats and the evening Ganga aarti.",Adventure,Spring,6000
+Munnar,Kerala,"Scenic hill station with tea plantations, green valleys, misty mountains and cool weather. Great for quiet walks, waterfalls, tea museums and relaxing getaways surrounded by greenery.",Nature,Winter,8000
+Darjeeling,West Bengal,"Mountain destination with tea gardens, Himalayan views, cool weather and scenic toy train rides. Famous for sunrise views over Kanchenjunga, tea estates and monasteries, with a calm hill town atmosphere.",Mountains,Summer,9000
+Ooty,Tamil Nadu,"Hill station with botanical gardens, tea plantations, lakes and pleasant weather. Popular for boating, a heritage mountain railway, rose gardens and easy relaxing family holidays.",Nature,Summer,7000
+Andaman Islands,Andaman and Nicobar Islands,"Tropical islands with clear water, coral reefs, scuba diving and sandy beaches. Ideal for snorkelling, island hopping, clear blue sea and relaxing seaside stays.",Beach,Winter,15000
+Leh,Ladakh,"High altitude mountain destination with dramatic landscapes, monasteries, trekking and adventure. Known for high passes, Buddhist culture, road trips, camping and starry night skies.",Adventure,Summer,15000
+Udaipur,Rajasthan,"Historic city with beautiful lakes, royal palaces, heritage hotels and traditional architecture. Called the city of lakes, with boat rides, sunset views, romantic settings and rich Rajasthani culture.",Historical,Winter,8000
+Coorg,Karnataka,"Green hill destination with coffee plantations, forests, waterfalls and peaceful surroundings. Known for coffee estates, misty mornings, trekking trails and quiet homestays.",Nature,Monsoon,7000
+McLeod Ganj,Himachal Pradesh,"Mountain destination with trekking trails, monasteries, misty hills and peaceful surroundings. Home to Tibetan culture, cafes, scenic walks and quiet hill views near the Dhauladhar range.",Mountains,Summer,7000
+Pondicherry,Puducherry,"Coastal town with beaches, French colonial architecture, cafes and relaxing seaside promenades. Known for tranquil streets, yoga ashrams, heritage villas and a relaxed French-influenced seaside culture.",Beach,Winter,6000
+Varanasi,Uttar Pradesh,"Historic spiritual city with ancient temples, riverfront ghats and rich cultural heritage. Famous for the evening Ganga aarti, boat rides on the river, narrow lanes and ancient spiritual traditions.",Historical,Winter,5000
+Srinagar,Jammu and Kashmir,"Mountain destination with Dal Lake, houseboats, snow-capped peaks and beautiful gardens. Known for shikara rides, Mughal gardens, local handicrafts and calm lakeside views.",Mountains,Summer,12000
+Gulmarg,Jammu and Kashmir,"Mountain destination famous for skiing, snowfall, snowy slopes and winter adventure sports. Features one of the highest gondola rides, snow trekking and heavy winter snowfall scenery.",Adventure,Winter,14000
+Nainital,Uttarakhand,"Hill station surrounded by mountains with a scenic lake, boating and cool weather. Great for boat rides, ropeway views, local markets and easy relaxing family trips.",Mountains,Summer,7000
+Mussoorie,Uttarakhand,"Hill station with mountain views, waterfalls, misty valleys and pleasant weather. Known as the queen of hills, with Mall Road walks, cable car rides, Kempty Falls and cool breezy evenings.",Mountains,Summer,8000
+Auli,Uttarakhand,"Mountain destination known for skiing, snowy slopes, Himalayan views and winter adventure. Offers cable car rides, skiing training, snow trekking and views of Nanda Devi.",Adventure,Winter,12000
+Kedarnath,Uttarakhand,"Mountain pilgrimage destination surrounded by Himalayan peaks and trekking routes. A sacred Shiva temple reached by a long trek, popular with pilgrims and trekkers seeking spiritual calm.",Mountains,Summer,10000
+Spiti Valley,Himachal Pradesh,"Remote mountain valley with dramatic landscapes, monasteries, cold desert scenery and trekking. Known for high altitude villages, ancient monasteries, starry skies and rugged road trips.",Adventure,Summer,14000
+Kasol,Himachal Pradesh,"Mountain village with riverside camping, trekking trails, forests and peaceful surroundings. Popular with backpackers for the Parvati river, cafes, short treks and relaxed village life.",Adventure,Summer,7000
+Kasauli,Himachal Pradesh,"Quiet hill station with pine forests, colonial buildings, scenic walking trails and cool weather. A calm, uncrowded getaway for short walks, birdwatching and quiet weekends.",Mountains,Summer,7000
+Dalhousie,Himachal Pradesh,"Mountain town with pine forests, colonial architecture, green valleys and peaceful scenery. Offers nearby Khajjiar meadows, short hikes, old churches and slow relaxing holidays.",Mountains,Summer,9000
+Kodaikanal,Tamil Nadu,"Hill station with lakes, forests, waterfalls, misty mountains and cool climate. Known for pine forests, a star-shaped lake, cycling, viewpoints and peaceful hill walks.",Nature,Summer,7000
+Wayanad,Kerala,"Nature destination with forests, wildlife, waterfalls, green hills and scenic trekking trails. Home to caves, tribal heritage, tea and spice plantations and rich bird and wildlife watching.",Nature,Monsoon,8000
+Alleppey,Kerala,"Backwater destination with houseboats, lagoons, coconut trees and relaxing water journeys. Famous for overnight houseboat stays, canoe rides, village life and calm green backwaters.",Nature,Winter,7000
+Kochi,Kerala,"Coastal city with historic streets, Chinese fishing nets, heritage buildings and seaside attractions. Known for old spice markets, art cafes, Kathakali shows and sunset walks by the harbour.",Historical,Winter,7000
+Mahabalipuram,Tamil Nadu,"Historic coastal town with ancient stone temples, rock carvings and UNESCO heritage monuments. Features the Shore Temple, beach views, sculpture workshops and a relaxed coastal feel.",Historical,Winter,6000
+Hampi,Karnataka,"Historic destination with ancient ruins, stone temples, archaeological sites and remarkable landscapes. Famous for the Vittala Temple, boulder hills, coracle rides and sunrise views over the ruins.",Historical,Winter,7000
+Mysuru,Karnataka,"Cultural city with royal palaces, historic monuments, gardens and traditional markets. Known for the illuminated Mysore Palace, silk, sandalwood, Dasara celebrations and peaceful gardens.",Historical,Winter,6000
+Pune,Maharashtra,"City destination with nearby forts, cultural attractions, pleasant hill getaways and trekking routes. Features Shaniwar Wada, Sinhagad Fort treks, cafes and a lively student culture.",Adventure,Winter,5000
+Lonavala,Maharashtra,"Hill station with green valleys, waterfalls, scenic viewpoints and monsoon trekking trails. Popular for rain-soaked weekends, ancient caves, lakes and lush greenery.",Nature,Monsoon,5000
+Mahabaleshwar,Maharashtra,"Hill station with strawberry farms, forests, mountain viewpoints and cool weather. Known for fresh strawberries, viewpoints, boating and peaceful nature walks.",Nature,Winter,6000
+Mumbai,Maharashtra,"Coastal metropolitan city with beaches, historic architecture, entertainment and vibrant street food. Home to the Gateway of India, Marine Drive, Bollywood culture and busy sunset beaches.",Beach,Winter,6000
+Ajanta Caves,Maharashtra,"Historic destination featuring ancient Buddhist cave monuments, paintings and rock-cut architecture. A UNESCO World Heritage Site with ancient murals and sculptures, ideal for art and history lovers.",Historical,Winter,6000
+Mount Abu,Rajasthan,"Hill station with forested hills, peaceful lakes, cool weather and historic Jain temples. The only hill station in Rajasthan, popular for sunset points, lake boating and cool breezy evenings.",Nature,Winter,7000
+Jaisalmer,Rajasthan,"Desert city with golden sandstone forts, historic havelis, camel safaris and cultural experiences. Known as the golden city, with desert camping, folk music, sand dunes and starry nights.",Historical,Winter,8000
+Jodhpur,Rajasthan,"Historic city with Mehrangarh Fort, royal palaces, blue-painted houses and cultural heritage. Called the blue city, with spice markets, stepwell cafes, zip-lining and panoramic fort views.",Historical,Winter,7000
+Khajuraho,Madhya Pradesh,"Historic destination known for intricate temple architecture, sculptures and cultural heritage. A UNESCO site famous for medieval carvings, light and sound shows and quiet heritage walks.",Historical,Winter,7000
+Pachmarhi,Madhya Pradesh,"Nature destination with forested hills, waterfalls, caves and scenic walking trails. Called the queen of Satpura, with pools, ancient rock paintings and quiet forest stays.",Nature,Monsoon,6000
+Kaziranga National Park,Assam,"Wildlife destination famous for one-horned rhinoceroses, grasslands, forests and nature safaris. A UNESCO site known for jeep and elephant safaris, birdwatching and wetland landscapes.",Nature,Winter,9000
+Shillong,Meghalaya,"Hill destination with green mountains, waterfalls, caves, pleasant weather and scenic viewpoints. Called the Scotland of the East, with music culture, cafes, lakes and cool breezy weather.",Nature,Winter,8000
+Cherrapunji,Meghalaya,"Nature destination with dramatic waterfalls, living root bridges, caves and misty green hills. One of the wettest places on Earth, popular for monsoon waterfalls, cave exploring and root bridge treks.",Nature,Monsoon,8000
+Gangtok,Sikkim,"Mountain city with Himalayan views, monasteries, scenic lakes and adventure excursions. Known for ropeway rides, local markets, mountain views and easy access to nearby high-altitude lakes.",Mountains,Summer,10000
+Pelling,Sikkim,"Mountain destination with Kanchenjunga views, monasteries, forests and peaceful surroundings. Offers quiet monasteries, sky walk views, waterfalls and calm village stays.",Mountains,Summer,9000
+Tawang,Arunachal Pradesh,"Remote mountain destination with monasteries, high altitude scenery, cold weather and peaceful valleys. Home to the largest monastery in India, snowy passes, frozen lakes and rich Buddhist culture.",Mountains,Summer,12000
+Ziro Valley,Arunachal Pradesh,"Scenic valley with green hills, rice fields, forests, traditional villages and peaceful surroundings. Known for music festivals, pine hills, bamboo groves and the unique Apatani tribal culture.",Nature,Monsoon,9000
+Puri,Odisha,"Coastal destination with sandy beaches, historic temples, seaside attractions and cultural experiences. Famous for the Jagannath Temple, the Rath Yatra festival, fresh seafood and long golden beaches.",Beach,Winter,6000
+Konark,Odisha,"Historic coastal destination famous for the Sun Temple, stone architecture and cultural heritage. Features a chariot-shaped temple with intricate carvings, a nearby beach and the Chandrabhaga fair.",Historical,Winter,6000
+Chopta,Uttarakhand,"Mountain meadow destination with rhododendron forests, Himalayan peaks and the Tungnath trekking route. Often called mini Switzerland, it is quiet, scenic and ideal for camping and short treks.",Mountains,Spring,6000
+Lansdowne,Uttarakhand,"Quiet hill station with oak and pine forests, colonial cantonment charm and peaceful viewpoints. A calm, uncrowded getaway for nature walks and cool weather.",Mountains,Summer,6000
+Almora,Uttarakhand,"Mountain town with Himalayan sunrise views, ancient temples, handicraft markets and Kumaoni culture. Peaceful, scenic and perfect for slow hill holidays.",Mountains,Summer,6000
+Ranikhet,Uttarakhand,"Peaceful hill station with pine forests, golf grounds, Himalayan views and cool weather. A quiet retreat for nature walks, birdwatching and relaxing stays.",Mountains,Summer,6500
+Munsiyari,Uttarakhand,"Remote Himalayan village with close views of snow-covered Panchachuli peaks, alpine meadows and trekking trails. Offers peaceful surroundings and high altitude adventure.",Mountains,Spring,8000
+Pahalgam,Jammu and Kashmir,"Mountain valley with the Lidder river, pine forests, green meadows and pony treks. Known for cool weather, scenic beauty and as the gateway to the Amarnath yatra route.",Mountains,Summer,11000
+Sonamarg,Jammu and Kashmir,"Mountain destination with glaciers, alpine lakes, snowy meadows and trekking routes. Famous for the Thajiwas Glacier, cold weather and dramatic Himalayan scenery.",Mountains,Summer,11000
+Lachung,Sikkim,"High altitude mountain village with snowy peaks, apple orchards, hot springs and the nearby Yumthang Valley. Known for snowfall in winter, cold weather and peaceful scenery.",Mountains,Winter,11000
+Kalimpong,West Bengal,"Quiet hill town with orchid nurseries, monasteries, colonial houses and views of Kanchenjunga. Peaceful, misty and less crowded than nearby Darjeeling.",Mountains,Spring,8000
+Kullu,Himachal Pradesh,"Mountain valley with the Beas river, apple orchards, temples and the Great Himalayan National Park nearby. Popular for river rafting, trekking and cool pleasant weather.",Mountains,Summer,7000
+Bir Billing,Himachal Pradesh,"Adventure destination known as the paragliding capital of India, with Buddhist monasteries and tea gardens. Offers hill views, camping, trekking and thrilling flights over the Dhauladhar mountains.",Adventure,Spring,6000
+Tirthan Valley,Himachal Pradesh,"Offbeat mountain valley with trout fishing, riverside camping, forest treks and the Great Himalayan National Park. Peaceful, uncrowded and ideal for hiking and nature lovers.",Adventure,Spring,7000
+Nubra Valley,Ladakh,"High altitude desert valley with sand dunes, double-humped camels, monasteries and the Khardung La pass. Offers road trips, camping and dramatic mountain scenery.",Adventure,Summer,14000
+Zanskar Valley,Ladakh,"Remote Himalayan valley with deep gorges, ancient monasteries and challenging trekking routes. Famous for rafting and the frozen river Chadar trek in cold winters.",Adventure,Summer,16000
+Yuksom,Sikkim,"Historic mountain village and starting point for the Kanchenjunga and Dzongri treks. Offers forest trails, monasteries, camping and peaceful Himalayan views.",Adventure,Spring,9000
+Dandeli,Karnataka,"Forest adventure destination with white water rafting on the Kali river, kayaking, jungle safaris and camping. Popular for wildlife, birdwatching and monsoon thrills.",Adventure,Monsoon,6000
+Kolad,Maharashtra,"Adventure destination on the Kundalika river with white water rafting, camping, zip lining and waterfall treks. A popular monsoon getaway close to Mumbai and Pune.",Adventure,Monsoon,4500
+Valley of Flowers,Uttarakhand,"UNESCO nature reserve with alpine meadows of wildflowers, glacial streams and Himalayan peaks. Reached by a scenic trek and best visited during the monsoon bloom.",Nature,Monsoon,9000
+Pangong Lake,Ladakh,"High altitude lake with changing shades of blue, barren mountains and starry night skies. Offers lakeside camping, photography and peaceful, dramatic scenery.",Nature,Summer,15000
+Majuli,Assam,"River island on the Brahmaputra with Vaishnavite monasteries, bamboo houses, migratory birds and traditional mask-making. Peaceful, green and rich in tribal culture.",Nature,Winter,7000
+Mawlynnong,Meghalaya,"Spotless village known as one of the cleanest in Asia, with living root bridges, bamboo skywalks and lush forests. Peaceful, green and perfect for slow nature walks.",Nature,Spring,7000
+Dawki,Meghalaya,"Border town on the crystal clear Umngot river with boating, riverside camping and green hills. Famous for transparent water, scenic views and relaxing boat rides.",Nature,Winter,8000
+Jim Corbett National Park,Uttarakhand,"Wildlife destination with tiger reserves, jeep safaris, forests, elephants and river views. Popular for birdwatching, jungle stays and nature photography.",Nature,Spring,8000
+Ranthambore National Park,Rajasthan,"Wildlife destination famous for tiger safaris, ancient fort ruins, lakes and dry deciduous forests. Ideal for nature photography and jungle experiences.",Nature,Winter,9000
+Gir National Park,Gujarat,"Wildlife sanctuary and the only home of the Asiatic lion, with forests, jeep safaris and rich birdlife. Ideal for nature lovers and wildlife photography.",Nature,Winter,8000
+Sundarbans,West Bengal,"Mangrove forest delta with Royal Bengal tigers, boat safaris, rivers and rich wildlife. A UNESCO site offering unique nature and birdwatching experiences.",Nature,Winter,8000
+Thekkady,Kerala,"Nature destination around Periyar Wildlife Sanctuary with spice plantations, boat rides, elephants and forest treks. Green, scenic and peaceful, with cool pleasant weather.",Nature,Winter,8000
+Bandipur National Park,Karnataka,"Wildlife destination with deciduous forests, tigers, elephants, jungle safaris and nearby hills. Known for birdwatching, nature stays and peaceful green surroundings.",Nature,Winter,7000
+Chikmagalur,Karnataka,"Hill destination with coffee estates, misty mountains, waterfalls and the Mullayanagiri trek. Peaceful, green and perfect for relaxing nature stays.",Nature,Monsoon,7000
+Araku Valley,Andhra Pradesh,"Scenic valley with coffee plantations, tribal villages, waterfalls, caves and a famous train ride through green hills. Cool, quiet and perfect for nature lovers.",Nature,Winter,6000
+Tadoba National Park,Maharashtra,"Wildlife destination with dense teak forests, lakes, tiger safaris and rich birdlife. Popular for jungle stays, nature photography and peaceful forest experiences.",Nature,Summer,7000
+Gokarna,Karnataka,"Coastal town with quiet beaches, sacred temples, cliffside views and beach treks. Relaxed, peaceful and less crowded than the busier beaches of Goa.",Beach,Winter,6000
+Varkala,Kerala,"Coastal destination with cliff-top beaches, natural springs, cafes and ayurvedic spas. Known for relaxing sea views, sunsets and yoga retreats.",Beach,Winter,7000
+Kovalam,Kerala,"Beach destination with crescent-shaped sandy shores, lighthouse views, surfing and ayurvedic massage centres. Popular for swimming, seafood and relaxing seaside stays.",Beach,Winter,8000
+Kanyakumari,Tamil Nadu,"Coastal town at the southern tip of India where three seas meet, famous for sunrise and sunset views. Features the Vivekananda Rock Memorial and seaside temples.",Beach,Winter,5000
+Diu,Dadra and Nagar Haveli and Daman and Diu,"Island beach town with Portuguese forts, quiet beaches, old churches and seaside cafes. Relaxing, uncrowded and perfect for water sports and calm sea views.",Beach,Winter,7000
+Lakshadweep,Lakshadweep,"Tropical coral islands with clear lagoons, white sandy beaches, scuba diving and snorkelling. Remote, peaceful and ideal for water sports and island holidays.",Beach,Winter,20000
+Neil Island,Andaman and Nicobar Islands,"Quiet island with calm beaches, coral reefs, a natural rock bridge and snorkelling spots. Relaxed, peaceful and ideal for sunsets and clear water.",Beach,Winter,14000
+Digha,West Bengal,"Popular seaside town with long shallow beaches, casuarina trees and fresh seafood. A budget friendly weekend getaway for families and relaxing sea walks.",Beach,Winter,4000
+Alibaug,Maharashtra,"Coastal town with calm beaches, sea forts, water sports and seaside villas. A quick relaxing weekend getaway near Mumbai with fresh seafood.",Beach,Winter,5000
+Tarkarli,Maharashtra,"Beach destination with clear water, scuba diving, snorkelling, dolphin spotting and the Sindhudurg sea fort. Peaceful, uncrowded and known for Malvani seafood.",Beach,Winter,6000
+Rushikonda,Andhra Pradesh,"Beach destination on the coast of Visakhapatnam with golden sand, water sports, hill views and a seaside promenade. Popular for swimming, surfing and relaxed seaside evenings.",Beach,Winter,5000
+Agra,Uttar Pradesh,"Historic city with the Taj Mahal, Agra Fort, Mughal architecture and old bazaars. Known for marble inlay craft, Mughlai food and rich cultural heritage.",Historical,Winter,6000
+Delhi,Delhi,"Capital city with the Red Fort, Qutub Minar, Humayun's Tomb and historic markets of Old Delhi. Offers rich heritage, museums, street food and a mix of ancient and modern culture.",Historical,Winter,7000
+Amritsar,Punjab,"Historic spiritual city with the Golden Temple, Jallianwala Bagh and the Wagah border ceremony. Known for community kitchens, Punjabi food and rich Sikh heritage.",Historical,Winter,6000
+Hyderabad,Telangana,"Historic city with Charminar, Golconda Fort, Nizam palaces and old bazaars. Famous for biryani, pearls and rich cultural heritage.",Historical,Winter,7000
+Gwalior,Madhya Pradesh,"Historic city with a massive hill fort, royal palaces, ancient temples and music heritage. Known for forts, museums and cultural traditions.",Historical,Winter,5000
+Orchha,Madhya Pradesh,"Medieval town on the Betwa river with palaces, temples, royal cenotaphs and quiet streets. Peaceful, less crowded and ideal for history lovers.",Historical,Winter,5000
+Chittorgarh,Rajasthan,"Historic fort city with the largest fort in India, towers, palaces and tales of Rajput valor. Known for heritage monuments and cultural festivals.",Historical,Winter,5000
+Bodh Gaya,Bihar,"Spiritual and historic town with the Mahabodhi Temple, the sacred Bodhi tree and monasteries from many countries. Peaceful, calm and rich in Buddhist heritage.",Historical,Winter,5000
+Madurai,Tamil Nadu,"Ancient temple city with the Meenakshi Amman Temple, bustling bazaars and Tamil culture. Known for colorful gopurams, jasmine markets and traditional food.",Historical,Winter,5000
+Thanjavur,Tamil Nadu,"Historic city with the Brihadeeswarar Temple, Chola architecture, palaces and art museums. Famous for bronze sculptures, classical music and Tanjore paintings.",Historical,Winter,5000
+Bijapur,Karnataka,"Historic city with the Gol Gumbaz dome, Islamic architecture, ancient mosques and old forts. Known for its whispering gallery, monuments and Deccan heritage.",Historical,Winter,5000
+Lucknow,Uttar Pradesh,"Historic city of nawabs with Bara Imambara, Rumi Darwaza, old gardens and rich culture. Known for Awadhi cuisine, chikankari embroidery and refined traditions.",Historical,Winter,6000
+Pushkar,Rajasthan,"Sacred lake town with the Brahma Temple, ghats, a camel fair and colorful markets. Known for its spiritual atmosphere, desert views and cultural festivals.",Historical,Winter,5500
+Mandu,Madhya Pradesh,"Ancient fortress town with Afghan architecture, palaces, mosques and views across green valleys. Romantic ruins that look beautiful during monsoon.",Historical,Monsoon,5000
+Ahmedabad,Gujarat,"UNESCO heritage city with stepwells, old pols, Sabarmati Ashram and Islamic monuments. Known for textile markets, Gujarati food and cultural heritage.",Historical,Winter,6000
+Sanchi,Madhya Pradesh,"Historic Buddhist site with ancient stupas, carved gateways and monasteries from the Mauryan era. A UNESCO World Heritage Site that is calm, quiet and ideal for history lovers.",Historical,Winter,4500
