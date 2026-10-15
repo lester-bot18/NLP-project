@@ -1,2 +1,2 @@
 # NLP-project
-This is a Travel Recommendation Assistant
+This is a Travel Recommendation Assistant. 
